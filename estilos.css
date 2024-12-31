@@ -1,0 +1,139 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  nav img { 
+    width: 200px;
+
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #carrito-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  #productos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #productos li {
+    margin: 20px;
+    width: 200px;
+  }
+  
+  #productos img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  #carrito {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #carrito-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #carrito-lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #carrito-lista li:last-child {
+    border-bottom: none;
+  }
+  
+  #total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #pagar {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #pagar:hover {
+    background-color: #3e8e41;
+  }
+  
+  #formulario-pago {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #formulario-pago label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #formulario-pago select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #enviar-pago {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #enviar-pago:hover {
+    background-color: #3e8e41;
+  }

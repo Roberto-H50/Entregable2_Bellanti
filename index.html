@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Nav con logo y carrito -->
+  <nav>
+    <img src="./img/logo.purech.jpeg" alt="Logo">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Carrito</a></li>
+    </ul>
+    <img src="./img/carrito-de-compras.png" alt="Carrito" id="carrito-icon">
+  </nav>
+
+  <!-- Contenido principal -->
+  <main>
+    <h1>Productos</h1>
+    <ul id="productos">
+      <li>
+        <img src="./img/coloracio-purechroma.jpeg" alt="Producto 1">
+        <h2>Producto 1</h2>
+        <p>Precio: $2500</p>
+        <p>Stock: 1000</p>
+        <button id="comprar-1">Comprar</button>
+      </li>
+      <li>
+        <img src="./img/Agua-oxid-20vol1litro.jpeg" alt="Producto 2">
+        <h2>Producto 2</h2>
+        <p>Precio: $2800</p>
+        <p>Stock: 35</p>
+        <button id="comprar-2">Comprar</button>
+      </li>
+      <li>
+        <img src="./img/nutric-acida1kg.jpeg" alt="Producto 3">
+        <h2>Producto 3</h2>
+        <p>Precio: $7999</p>
+        <p>Stock: 15</p>
+        <button id="comprar-3">Comprar</button>
+      </li>
+      <li>
+        <img src="./img/agua-oxid-10vol1litro.jpeg" alt="Producto 3">
+        <h2>Producto 4</h2>
+        <p>Precio: $2500</p>
+        <p>Stock: 45</p>
+        <button id="comprar-3">Comprar</button>
+      </li>
+      <li>
+        <img src="./img/nutri-acidax250gr.jpeg" alt="Producto 3">
+        <h2>Producto 5</h2>
+        <p>Precio: $2999</p>
+        <p>Stock: 15</p>
+        <button id="comprar-3">Comprar</button>
+      </li>
+      <li>
+        <img src="./img/gel-capilar-1kg.jpeg" alt="Producto 3">
+        <h2>Producto 6</h2>
+        <p>Precio: $10390</p>
+        <p>Stock: 25</p>
+        <button id="comprar-3">Comprar</button>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Carrito de compras -->
+  <div id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="carrito-lista">
+      <!-- Aquí se mostrarán los productos agregados al carrito -->
+    </ul>
+    <p id="total">Total: $0</p>
+    <button id="pagar">Pagar</button>
+  </div>
+
+  <!-- Formulario de pago -->
+  <div id="formulario-pago">
+    <h2>Formulario de pago</h2>
+    <form>
+      <label for="medio-pago">Medio de pago:</label>
+      <select id="medio-pago">
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta-debito">Tarjeta débito</option>
+        <option value="tarjeta-credito">Tarjeta de crédito</option>
+      </select>
+      <button id="enviar-pago">Enviar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
